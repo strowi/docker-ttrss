@@ -57,12 +57,11 @@ RUN apk --update --no-cache add \
   && apk del --progress --purge \
   && rm -rf /var/cache/apk/*
 
-# Copy root file system.
-ADD src/ /
-
 COPY --from=0 /app /var/www/ttrss
 RUN chown -R nginx:nginx /var/www/ttrss
 
+# Copy root file system.
+ADD src/ /
 
 # Expose Nginx ports.
 EXPOSE 8080
