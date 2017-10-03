@@ -1,4 +1,3 @@
-/ # cat /var/www/ttrss/config.php-dist
 <?php
   // *******************************************
   // *** Database configuration (important!) ***
