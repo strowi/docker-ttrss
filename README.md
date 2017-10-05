@@ -1,4 +1,4 @@
-## docker-ttrss
+### docker-ttrss
 
 This Dockerfile installs Tiny Tiny RSS (TT-RSS) with the following features:
 
