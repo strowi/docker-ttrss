@@ -17,3 +17,11 @@ services:
       - 127.0.0.1:8080:8080
     depends_on:
       - mysql
+    environment:
+      - DB_TYPE=mysql
+      - DB_HOST=mysql
+      - DB_NAME=ttrss
+      - DB_USER=ttrss
+      - DB_PASSW=123
+      - TTRSS_SELF_URL=https://rss.hasnoname.de
+

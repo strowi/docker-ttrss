@@ -43,6 +43,7 @@ RUN apk --update --no-cache add \
   # then move `envsubst` out of the way so `gettext` can
   # be deleted completely, then move `envsubst` back.
   && apk add --no-cache --virtual .gettext gettext \
+  && ln -s /usr/bin/php7 /usr/bin/php \
   && mv /usr/bin/envsubst /tmp/ \
   && runDeps="$( \
     scanelf --needed --nobanner /usr/sbin/nginx /usr/lib/nginx/modules/*.so /tmp/envsubst \
