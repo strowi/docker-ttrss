@@ -1,6 +1,5 @@
 ### docker-ttrss
 
-
 This Dockerfile installs Tiny Tiny RSS (TT-RSS) with the following features:
 
 - [Docker-Alpine](https://github.com/gliderlabs/docker-alpine)-based with with supervisor
