@@ -1,6 +1,6 @@
 FROM alpine:latest
 
-ENV TTRSS_VERSION=17.4
+ENV TTRSS_VERSION=19.8
 
 RUN apk --update --no-cache add \
     git \

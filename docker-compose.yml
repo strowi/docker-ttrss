@@ -11,7 +11,7 @@ services:
       - MYSQL_USER=ttrss
       - MYSQL_PASSWORD=ttrss
   ttrss:
-    image: strowi/ttrss
+    image: test
     build: ./
     ports:
       - 127.0.0.1:8080:8080

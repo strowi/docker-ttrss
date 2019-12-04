@@ -1,4 +1,6 @@
-### docker-ttrss
+# docker-ttrss
+
+Mirrored from: [https://gitlab.com/strowi/docker-ttrss/](https://gitlab.com/strowi/docker-ttrss/)
 
 This Dockerfile installs Tiny Tiny RSS (TT-RSS) with the following features:
 
